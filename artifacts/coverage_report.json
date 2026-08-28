@@ -1,0 +1,13 @@
+{
+  "total_pit_constituents": 104,
+  "available_with_data": 100,
+  "missing_or_delisted": 4,
+  "coverage_pct": 0.9615384615384616,
+  "residual_survivorship_gap_pct": 0.038461538461538436,
+  "missing_symbols": [
+    "LTIM",
+    "INFRATEL",
+    "DHFL",
+    "JPASSOCIAT"
+  ]
+}

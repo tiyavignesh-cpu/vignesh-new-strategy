@@ -1,0 +1,281 @@
+{
+  "phase4_cash_yield": {
+    "strategy_only": {
+      "cagr": 0.17608819671278164,
+      "max_dd": -0.2248127869137978,
+      "volatility": 0.15689057678631627,
+      "sharpe_rf6": 0.7416146703041003,
+      "sharpe_rf0": 1.1223631165089818,
+      "sortino_rf6": 1.0169010906573597,
+      "profit_factor": 4.541378316224384,
+      "end_equity": 2691061.6004365534,
+      "trades": 179
+    },
+    "strategy_plus_yield": {
+      "cagr": 0.1998020330042536,
+      "max_dd": -0.205520398405883,
+      "volatility": 0.15679041752708572,
+      "sharpe_rf6": 0.8694006439270687,
+      "sharpe_rf0": 1.2743255369527768,
+      "sortino_rf6": 1.1922704514341864,
+      "profit_factor": 4.541378316224384,
+      "end_equity": 3310464.997318254,
+      "trades": 179
+    }
+  },
+  "phase4_annual_returns_strategy_only": {
+    "2017": 0.3012207124331996,
+    "2018": -0.14190880854936294,
+    "2019": -0.005660331061615453,
+    "2020": 0.33963392886626664,
+    "2021": 1.0096954905377014,
+    "2022": -0.019649454413072087,
+    "2023": 0.38676856649026314,
+    "2024": 0.2526147803093757,
+    "2025": 0.04595229315041105,
+    "2026": 0.010888530207381786
+  },
+  "phase5_cost_stress": {
+    "Scenario 1 (Normal Statutory + 0.05% slip)": {
+      "cagr": 0.17608819671278164,
+      "max_dd": -0.2248127869137978,
+      "sharpe_rf6": 0.7416146703041003,
+      "profit_factor": 4.541378316224384,
+      "win_rate": 0.5698324022346368,
+      "trades": 179,
+      "end_equity": 2691061.6004365534
+    },
+    "Fixed Friction 0.25%": {
+      "cagr": 0.17693281010156903,
+      "max_dd": -0.22338830316382052,
+      "sharpe_rf6": 0.7460847634583447,
+      "profit_factor": 4.607950871883447,
+      "win_rate": 0.5754189944134078,
+      "trades": 179,
+      "end_equity": 2711183.808200389
+    },
+    "Fixed Friction 0.50%": {
+      "cagr": 0.17269123305139855,
+      "max_dd": -0.23025143623222355,
+      "sharpe_rf6": 0.7229583317261558,
+      "profit_factor": 4.413221736062172,
+      "win_rate": 0.5642458100558659,
+      "trades": 179,
+      "end_equity": 2611487.413757274
+    },
+    "Fixed Friction 0.75%": {
+      "cagr": 0.16893648990075416,
+      "max_dd": -0.23657204379510077,
+      "sharpe_rf6": 0.7022459993642379,
+      "profit_factor": 4.262081866339194,
+      "win_rate": 0.547486033519553,
+      "trades": 179,
+      "end_equity": 2526011.1475852225
+    },
+    "Fixed Friction 1.00%": {
+      "cagr": 0.16457534556465947,
+      "max_dd": -0.24397014836320075,
+      "sharpe_rf6": 0.6787391148092179,
+      "profit_factor": 4.0824531822223395,
+      "win_rate": 0.5363128491620112,
+      "trades": 179,
+      "end_equity": 2429909.2444734774
+    },
+    "Slippage 2x Normal": {
+      "cagr": 0.1762858156711815,
+      "max_dd": -0.22592989583098377,
+      "sharpe_rf6": 0.7426903850815101,
+      "profit_factor": 4.488590952547556,
+      "win_rate": 0.5642458100558659,
+      "trades": 179,
+      "end_equity": 2695757.574328986
+    },
+    "Slippage 3x Normal": {
+      "cagr": 0.17497002244472926,
+      "max_dd": -0.22721861952171618,
+      "sharpe_rf6": 0.7363100320803193,
+      "profit_factor": 4.390808417207329,
+      "win_rate": 0.547486033519553,
+      "trades": 179,
+      "end_equity": 2664629.6445231335
+    }
+  },
+  "phase6_liquidity": {
+    "universe_median_adt_cr": 170.46696262792113,
+    "universe_min_adt_cr": 0.027584076640989184,
+    "max_portfolio_position_size_inr": 75000,
+    "median_adv_consumption_pct": 0.004399680560649747,
+    "worst_case_adv_consumption_pct": 0.46757457925496215,
+    "symbols_below_2cr_adt_count": 2
+  },
+  "phase7_position_sizing": {
+    "max_single_stock_allocation_cap": 0.15,
+    "min_single_stock_allocation": 0.05,
+    "target_number_of_positions": 10,
+    "hold_rank_buffer": 25,
+    "rebalance_cadence": "Monthly (Month-End Anchors)",
+    "hard_volatility_floor": 0.12,
+    "macro_trend_gate": "NIFTY 50 > 200-DMA",
+    "cash_regime_during_bear": "100% Cash / Liquid Yield"
+  },
+  "phase8_walk_forward": {
+    "2016-2020 -> 2021": {
+      "test_period": "2021-01-01 to 2021-12-31",
+      "cagr": 1.0628664683680986,
+      "max_dd": -0.1064681493183447,
+      "sharpe_rf6": 3.144512577064132,
+      "sortino_rf6": 4.68775367504432,
+      "profit_factor": 2.776750480471364,
+      "win_rate": 0.7777777777777778,
+      "trade_count": 9,
+      "end_equity": 1016720.5803197885
+    },
+    "2017-2021 -> 2022": {
+      "test_period": "2022-01-01 to 2022-12-31",
+      "cagr": 0.05569345304317097,
+      "max_dd": -0.12937860234896958,
+      "sharpe_rf6": 0.05517572818026426,
+      "sortino_rf6": 0.07201261122490202,
+      "profit_factor": 0.21281693947665664,
+      "win_rate": 0.2727272727272727,
+      "trade_count": 22,
+      "end_equity": 527279.4094071613
+    },
+    "2018-2022 -> 2023": {
+      "test_period": "2023-01-01 to 2023-12-31",
+      "cagr": 0.3838915586075793,
+      "max_dd": -0.06516666436058627,
+      "sharpe_rf6": 2.8348066060381316,
+      "sortino_rf6": 4.470411874763382,
+      "profit_factor": 1.4651035810309467,
+      "win_rate": 0.5,
+      "trade_count": 18,
+      "end_equity": 684845.5436284794
+    },
+    "2019-2023 -> 2024": {
+      "test_period": "2024-01-01 to 2024-12-31",
+      "cagr": 0.3100026318294298,
+      "max_dd": -0.13412145515889173,
+      "sharpe_rf6": 1.0854760043366383,
+      "sortino_rf6": 1.4448250254647104,
+      "profit_factor": 5.840346726473621,
+      "win_rate": 0.5263157894736842,
+      "trade_count": 19,
+      "end_equity": 650106.6556506684
+    },
+    "2020-2024 -> 2025": {
+      "test_period": "2025-01-01 to 2025-12-31",
+      "cagr": 0.04313431267986734,
+      "max_dd": -0.08191759514620012,
+      "sharpe_rf6": -0.1382042804131343,
+      "sortino_rf6": -0.19793260242119196,
+      "profit_factor": 0.20803941681516833,
+      "win_rate": 0.2727272727272727,
+      "trade_count": 11,
+      "end_equity": 521217.6583898595
+    },
+    "2021-2025 -> 2026": {
+      "test_period": "2025-08-01 to 2026-08-01",
+      "cagr": 0.12061037375059569,
+      "max_dd": -0.057527013215018186,
+      "sharpe_rf6": 0.6587974505945616,
+      "sortino_rf6": 0.9188343608652259,
+      "profit_factor": 9.374322144839066,
+      "win_rate": 0.8235294117647058,
+      "trade_count": 17,
+      "end_equity": 559293.3409762502
+    }
+  },
+  "phase9_parameter_sensitivity": {
+    "12m Lookback (-20% = 202d)": {
+      "cagr": 0.1851945912904407,
+      "max_dd": -0.21004331684572786,
+      "sharpe_rf6": 0.7827794652142781,
+      "profit_factor": 5.196443801838051
+    },
+    "12m Lookback (-10% = 227d)": {
+      "cagr": 0.19234644824394587,
+      "max_dd": -0.22806374391323614,
+      "sharpe_rf6": 0.82209762359233,
+      "profit_factor": 5.452916264103803
+    },
+    "12m Lookback (+0% = 252d)": {
+      "cagr": 0.17608819671278164,
+      "max_dd": -0.2248127869137978,
+      "sharpe_rf6": 0.7416146703041003,
+      "profit_factor": 4.541378316224384
+    },
+    "12m Lookback (+10% = 277d)": {
+      "cagr": 0.19855102120822132,
+      "max_dd": -0.23519406542148624,
+      "sharpe_rf6": 0.8524880104492959,
+      "profit_factor": 5.444713056710221
+    },
+    "12m Lookback (+20% = 302d)": {
+      "cagr": 0.18302993820945956,
+      "max_dd": -0.24094065176709933,
+      "sharpe_rf6": 0.778575230149511,
+      "profit_factor": 4.788470893033519
+    },
+    "Top N (-20% = 8)": {
+      "cagr": 0.1932785325005666,
+      "max_dd": -0.23936604291842,
+      "sharpe_rf6": 0.804049813037637,
+      "profit_factor": 5.3957006193831
+    },
+    "Top N (-10% = 9)": {
+      "cagr": 0.1855790323829034,
+      "max_dd": -0.22171728946163205,
+      "sharpe_rf6": 0.7822668839277462,
+      "profit_factor": 4.895428274073136
+    },
+    "Top N (+0% = 10)": {
+      "cagr": 0.17608819671278164,
+      "max_dd": -0.2248127869137978,
+      "sharpe_rf6": 0.7416146703041003,
+      "profit_factor": 4.541378316224384
+    },
+    "Top N (+10% = 11)": {
+      "cagr": 0.1768164327582331,
+      "max_dd": -0.2354563105159445,
+      "sharpe_rf6": 0.7472120460841084,
+      "profit_factor": 4.957835937413755
+    },
+    "Top N (+20% = 12)": {
+      "cagr": 0.1840173149113533,
+      "max_dd": -0.23218447928277286,
+      "sharpe_rf6": 0.7912828717969809,
+      "profit_factor": 5.131275283998031
+    }
+  },
+  "phase10_monte_carlo": {
+    "5th_percentile_cagr": 0.14707921401974347,
+    "median_cagr": 0.18619728075326702,
+    "95th_percentile_cagr": 0.21964728192301253,
+    "5th_percentile_end_equity": 2141214.383648999,
+    "median_end_equity": 3055156.0653857514,
+    "95th_percentile_end_equity": 4102542.402885262,
+    "expected_median_max_dd": -0.08221406039495721,
+    "95th_percentile_worst_max_dd": -0.18484968306166435,
+    "max_losing_streak_95pct": 8,
+    "prob_drawdown_gt_20pct": 0.0344,
+    "prob_drawdown_gt_25pct": 0.0138,
+    "prob_drawdown_gt_30pct": 0.0058,
+    "prob_negative_10yr_return": 0.0
+  },
+  "phase11_trade_quality": {
+    "total_trades": 179,
+    "trades_per_year": 16.88679245283019,
+    "trades_per_month": 1.407232704402516,
+    "avg_holding_period_days": 149.66480446927375,
+    "max_holding_period_days": 613,
+    "avg_win_inr": 32392.613342730885,
+    "avg_loss_inr": -9448.606262016638,
+    "win_loss_payoff_ratio": 3.4282953955811526,
+    "expectancy_per_trade_inr": 14393.87641778363,
+    "largest_win_inr": 263547.2281201948,
+    "largest_loss_inr": -43979.933588602755,
+    "top_5_trades_profit_share_pct": 41.22463486593669,
+    "top_10_trades_profit_share_pct": 66.89925829549654
+  }
+}

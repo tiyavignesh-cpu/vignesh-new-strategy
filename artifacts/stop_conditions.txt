@@ -1,0 +1,25 @@
+================================================================================
+FORMAL §7 STOP CONDITIONS AUDIT (GO / NO-GO GATES)
+================================================================================
+1. Engine 2 Out-of-Sample Profit Factor >= 1.3 over >= 30 trades:
+   Observed : Profit Factor = 0.14 over 11 trades
+   Status   : FAIL (STOP TRIGGERED)
+   Action   : Run Engine 1 alone. The swing layer has failed out-of-sample.
+
+2. Engine 2 Median TP1 R-multiple >= 1.0:
+   Observed : Median TP1 R = 1.50 (0.0% of setups < 1.0R)
+   Status   : PASS
+   Action   : Target geometry healthy.
+
+3. POSITION_CAP binds on <= 80% of Engine 2 entries:
+   Observed : 0.0% (0/0 sizing decisions)
+   Status   : PASS
+   Action   : Dynamic risk sizing active.
+
+4. Delisted constituent coverage gap <= 10%:
+   Observed : 3.8% missing (96.2% available)
+   Status   : PASS
+   Action   : Coverage is robust (<10% omitted).
+================================================================================
+FINAL ACTION VERDICT: DO NOT DEPLOY ENGINE 2 — RUN ENGINE 1 (MOMENTUM ROTATION) ALONE
+================================================================================

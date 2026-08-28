@@ -1,0 +1,87 @@
+{
+  "engine1_net_of_tax": {
+    "label": "Option A+C: Momentum (Net of Tax)",
+    "start_equity": 500000.0,
+    "end_equity": 2575456.0485528107,
+    "cagr": 0.1711222147349658,
+    "volatility": 0.13626383230649444,
+    "sharpe": 0.8005036681084756,
+    "sortino": 1.1080359244416105,
+    "max_drawdown": -0.21416765368159263,
+    "calmar": 0.7990105498815272,
+    "trades": 183,
+    "win_rate": 0.6065573770491803,
+    "profit_factor": 4.745773554851844,
+    "cash_yield_credited": 0.0
+  },
+  "engine1_cash_credited": {
+    "label": "Option A+C: Momentum (Cash Credited)",
+    "start_equity": 500000.0,
+    "end_equity": 3355797.0480861156,
+    "cagr": 0.20137559099443814,
+    "volatility": 0.13615455962482284,
+    "sharpe": 0.9884880184836032,
+    "sortino": 1.3707123633859757,
+    "max_drawdown": -0.1845739324160912,
+    "calmar": 1.0910294230523863,
+    "trades": 183,
+    "win_rate": 0.6065573770491803,
+    "profit_factor": 4.745773554851844,
+    "cash_yield_credited": 780340.999533305
+  },
+  "engine2_net_of_tax": {
+    "label": "Option A+C: Momentum (Net of Tax)",
+    "start_equity": 500000.0,
+    "end_equity": 2575456.0485528107,
+    "cagr": 0.1711222147349658,
+    "volatility": 0.13626383230649444,
+    "sharpe": 0.8005036681084756,
+    "sortino": 1.1080359244416105,
+    "max_drawdown": -0.21416765368159263,
+    "calmar": 0.7990105498815272,
+    "trades": 183,
+    "win_rate": 0.6065573770491803,
+    "profit_factor": 4.745773554851844,
+    "cash_yield_credited": 0.0
+  },
+  "engine2_cash_credited": {
+    "label": "Option A+C: Momentum (Cash Credited)",
+    "start_equity": 500000.0,
+    "end_equity": 3355797.0480861156,
+    "cagr": 0.20137559099443814,
+    "volatility": 0.13615455962482284,
+    "sharpe": 0.9884880184836032,
+    "sortino": 1.3707123633859757,
+    "max_drawdown": -0.1845739324160912,
+    "calmar": 1.0910294230523863,
+    "trades": 183,
+    "win_rate": 0.6065573770491803,
+    "profit_factor": 4.745773554851844,
+    "cash_yield_credited": 780340.999533305
+  },
+  "benchmark": {
+    "label": "NIFTY 50 (Net of Tax)",
+    "start_equity": 500000.0,
+    "end_equity": 1431697.0655118998,
+    "cagr": 0.10673885867299093,
+    "volatility": 0.16395618509631743,
+    "sharpe": 0.3459222442055787,
+    "sortino": 0.4683277424617338,
+    "max_drawdown": -0.38439852452742107,
+    "calmar": 0.2776775972389996,
+    "trades": 0,
+    "win_rate": 0.0,
+    "profit_factor": 0.0,
+    "cash_yield_credited": 0.0
+  },
+  "tp1_r_distribution": {
+    "median": 1.5,
+    "below_1_0_pct": 0.0
+  },
+  "friction_breakdown": {
+    "gross_pnl_e1": 2563902.9268112183,
+    "statutory_costs_e1": 51956.73191288845,
+    "slippage_e1": 22152.93497110367,
+    "tax_e1": 425413.6788599672
+  }
+}

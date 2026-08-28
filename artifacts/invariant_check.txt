@@ -1,0 +1,11 @@
+=== Option A+C: Momentum (Net of Tax) ===
+Invariant Check: PASSED (No illegal Sortino/Sharpe/Volatility combinations)
+Sanity Notes: None
+
+=== Option A+C: Momentum (Cash Credited) ===
+Invariant Check: PASSED (No illegal Sortino/Sharpe/Volatility combinations)
+Sanity Notes: None
+
+=== NIFTY 50 (Net of Tax) ===
+Invariant Check: PASSED (No illegal Sortino/Sharpe/Volatility combinations)
+Sanity Notes: None

@@ -1,0 +1,69 @@
+{
+  "split_date": "2021-12-31",
+  "is_period": "2016-01-01 to 2021-12-31",
+  "oos_period": "2022-01-01 to 2026-08-01",
+  "in_sample": {
+    "engine1": {
+      "label": "Option A+C: Momentum (Net of Tax)",
+      "start_equity": 500000.0,
+      "end_equity": 1335353.7110224017,
+      "cagr": 0.1819326463653268,
+      "volatility": 0.12130443432650148,
+      "sharpe": 0.9587149459033983,
+      "sortino": 1.377170400803456,
+      "max_drawdown": -0.21416765368159263,
+      "calmar": 0.8494870408199444,
+      "trades": 101,
+      "win_rate": 0.6039603960396039,
+      "profit_factor": 2.160670755686703,
+      "cash_yield_credited": 0.0
+    },
+    "engine2": {
+      "label": "Option A+C: Momentum (Net of Tax)",
+      "start_equity": 500000.0,
+      "end_equity": 1335353.7110224017,
+      "cagr": 0.1819326463653268,
+      "volatility": 0.12130443432650148,
+      "sharpe": 0.9587149459033983,
+      "sortino": 1.377170400803456,
+      "max_drawdown": -0.21416765368159263,
+      "calmar": 0.8494870408199444,
+      "trades": 101,
+      "win_rate": 0.6039603960396039,
+      "profit_factor": 2.160670755686703,
+      "cash_yield_credited": 0.0
+    }
+  },
+  "out_of_sample": {
+    "engine1": {
+      "label": "Option A+C: Momentum (Net of Tax)",
+      "start_equity": 500000.0,
+      "end_equity": 469743.96180957335,
+      "cagr": -0.01378749355675224,
+      "volatility": 0.02733348509880775,
+      "sharpe": -2.626238742439514,
+      "sortino": -3.207636179036267,
+      "max_drawdown": -0.07538959226823716,
+      "calmar": -0.18288324876060022,
+      "trades": 11,
+      "win_rate": 0.18181818181818182,
+      "profit_factor": 0.13953218725443203,
+      "cash_yield_credited": 0.0
+    },
+    "engine2": {
+      "label": "Option A+C: Momentum (Net of Tax)",
+      "start_equity": 500000.0,
+      "end_equity": 469743.96180957335,
+      "cagr": -0.01378749355675224,
+      "volatility": 0.02733348509880775,
+      "sharpe": -2.626238742439514,
+      "sortino": -3.207636179036267,
+      "max_drawdown": -0.07538959226823716,
+      "calmar": -0.18288324876060022,
+      "trades": 11,
+      "win_rate": 0.18181818181818182,
+      "profit_factor": 0.13953218725443203,
+      "cash_yield_credited": 0.0
+    }
+  }
+}

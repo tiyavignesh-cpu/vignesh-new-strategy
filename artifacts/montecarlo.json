@@ -1,0 +1,22 @@
+{
+  "engine1_rotation": {
+    "median_drawdown": -0.07538959226823727,
+    "p05_drawdown": -0.1747790626512,
+    "p01_drawdown": -0.21539397123699724,
+    "median_terminal_multiple": 0.9478898526689379,
+    "p05_terminal_multiple": 0.8443858947198063,
+    "prob_loss": 0.887,
+    "n_sims": 1000,
+    "block": 21
+  },
+  "engine2_pullback": {
+    "median_drawdown": -0.07538959226823727,
+    "p05_drawdown": -0.1747790626512,
+    "p01_drawdown": -0.21539397123699724,
+    "median_terminal_multiple": 0.9478898526689379,
+    "p05_terminal_multiple": 0.8443858947198063,
+    "prob_loss": 0.887,
+    "n_sims": 1000,
+    "block": 21
+  }
+}
